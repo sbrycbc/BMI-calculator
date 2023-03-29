@@ -1,0 +1,108 @@
+.calculator{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+    margin: auto;
+    padding: 2.5rem;
+    border-radius: 10px;
+    background-color: rgb(218, 232, 232);
+}
+
+
+h1{ color: blueviolet;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+h2, .para{
+    color: blueviolet;
+    font-size: 1.4rem;
+}
+
+h2{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: white;
+}
+
+input{
+    background-image: linear-gradient(to top left, #9963a3 0%, #945759 100%);
+    color: white;
+    width: 24rem;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.resetandrechner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn, .btn-reset{
+    background-image: linear-gradient(to top left, #8e9ba0 0%, #939999 100%);
+    color:black;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin:35px;
+    margin-top: 3rem;
+    padding: 5px;
+    width: 11rem;  
+}
+
+.btn :hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+.showBMI-niedrig {
+    background: linear-gradient(to top left, #6c87af, rgb(84, 158, 158));
+}
+  
+.showBMI-normal {
+    background: linear-gradient(to top left, #6c87af, rgb(84, 158, 158));
+}
+  
+.showBMI-hoch {
+    background: linear-gradient(to top left, #6c87af, rgb(84, 158, 158));
+}
+
+.counsel-hidden{
+    background-image: linear-gradient(to top left, #9963a3 0%, #945759 100%);
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 28rem;
+    margin: auto;
+    margin-top: 2rem;
+    padding-right: 2.4rem;
+    background-color: rgb(218, 232, 232);
+    border-radius: 10px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+  
+.hidden {
+    display: none;
+}
+
