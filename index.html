@@ -5,12 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>BMI</title>
+    <title>BMI Calculator</title>
 </head>
 <body>
 
-    <section>
-        <h1>BMI Rechner</h1>
+    <section class="calculator">
+        <h1>BMI Calculator</h1>
+
+        <p class="para">Your Weight!</p>
+        <input
+            id="weight"
+            type="number"
+            placeholder="Please enter your weight in kg."
+            value=""
+            />
+        <p class="para">Your Height!</p>
+        <input 
+            id="height"
+            type="number" 
+            placeholder="Gives please indicate your height in meters."
+            value=""
+            />
+        
+        <div class="resetandrechner">
+            <button class="btn" onclick="calcBMI()">Calculator BMI</button>
+            <button class="btn-reset" onclick="resetBMI()">Reset</button>
+        </div>
+
+        <p id="BMI" class="showBMI hidden"></p>
+        <p class="counsel hidden"></p>
+    </section>
+
+    <section class="information">
+    <h2>Information about BMI</h2>
+    <ul>
+        <li>BMI (Body Mass Index) is a measure for assessing body weight by relating weight to height. Due to the simple measurement, the calculation of the BMI is the most commonly used diagnostic method for classifying body weight. The BMI value determined can be used to quickly determine whether a person is of normal weight, overweight or underweight.
+        </li>
+
+        <li>Even if BMI does not take into account body fat percentages, it is still the most suitable weight assessment method and provides reliable results for adults who are not particularly large muscle mass or amputated.
+        </li> 
+
+        <li>The relatively simple BMI formula is used to calculate the body mass index: BMI=(weight in kg)/(height in m)². The calculated value must then be compared with a value table in order to be able to evaluate whether a person is of normal weight, overweight or underweight. The WHO has defined special limits for this, with different results for men and women. You will receive such an evaluation in the results after filling out and running the BMI calculator.
+        </li>   
+    </ul>
     </section>
 
 
