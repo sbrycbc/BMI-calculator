@@ -1,3 +1,11 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  
+}
 .calculator{
     display: flex;
     justify-content: center;
@@ -30,13 +38,18 @@ h2{
     color: white;
 }
 
-input{
-    background-image: linear-gradient(to top left, #9963a3 0%, #945759 100%);
-    color: white;
-    width: 24rem;
-    padding: 16px;
-    border-radius: 10px;
-    font-size: 18px;
+input {
+  background-image: linear-gradient(
+    to top left,
+    #6c7a8f 0%,
+    rgb(126, 151, 151) 100%
+  );
+  color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 5px white;
 }
 
 .resetandrechner {
@@ -46,20 +59,42 @@ input{
     align-items: center;
 }
 
-.btn, .btn-reset{
-    background-image: linear-gradient(to top left, #8e9ba0 0%, #939999 100%);
-    color:black;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    margin:35px;
-    margin-top: 3rem;
-    padding: 5px;
-    width: 11rem;  
+.btn {
+  background-image: linear-gradient(to top left, #9963a3 0%, #945759 100%);
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+  width: 200px;
+  font-size: 24px;
+}
+
+.btn-reset {
+  background-image: linear-gradient(to top left, #9963a3 0%, #945759 100%);
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+  width: 200px;
+  font-size: 24px;
 }
 
 .btn :hover {
-    background-color: gainsboro;
-    color: black;
+  background-color: gainsboro;
+  color: black;
+}
+
+
+.showBMI {
+  background-image: linear-gradient(
+    to top left,
+    #6c87af 0%,
+    rgb(84, 158, 158) 100%
+  );
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .showBMI-niedrig {
