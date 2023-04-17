@@ -4,6 +4,8 @@ body {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  
   
 }
 .calculator{
@@ -13,7 +15,8 @@ body {
     align-items: center;
     width: 25rem;
     margin: auto;
-    padding: 2.5rem;
+    margin-top: 1.5rem;
+    padding: 2rem;
     border-radius: 10px;
     background-color: rgb(218, 232, 232);
 }
@@ -46,7 +49,7 @@ input {
   );
   color: white;
   width: 400px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   font-size: 18px;
   border: 5px white;
@@ -59,29 +62,19 @@ input {
     align-items: center;
 }
 
-.btn {
+.btn,.btn-reset{
   background-image: linear-gradient(to top left, #9963a3 0%, #945759 100%);
   color: white;
   border-radius: 5px;
   margin: 20px;
   width: 200px;
-  font-size: 24px;
-}
-
-.btn-reset {
-  background-image: linear-gradient(to top left, #9963a3 0%, #945759 100%);
-  color: white;
-  border-radius: 5px;
-  margin: 20px;
-  width: 200px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .btn :hover {
   background-color: gainsboro;
   color: black;
 }
-
 
 .showBMI {
   background-image: linear-gradient(
@@ -128,7 +121,7 @@ input {
     width: 28rem;
     margin: auto;
     margin-top: 2rem;
-    padding-right: 2.4rem;
+    padding-right: 2rem;
     background-color: rgb(218, 232, 232);
     border-radius: 10px;
 }
