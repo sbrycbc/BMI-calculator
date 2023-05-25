@@ -16,7 +16,9 @@ Clicking the "Reset" button clears the input fields and hides the BMI result and
 
 # Components
 index.html
+
 style.css
+
 script.js
 
 # Additional Information
